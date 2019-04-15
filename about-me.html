@@ -7,13 +7,24 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Cabin" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <main role="main">
+        <header role="banner">
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>           
+          <nav class="menu">
+              <ul>
+                  <a href="index.html"><li id="back-to-home">Menu</li></a>
+                  <a href="about-me.html" id="about-me-here"><li>About me</li></a>
+                  <a href="projects.html"><li>Projects</li></a>
+                  <a href="contact-form.html"><li>Contact me</li></a>
+                </ul>
+          </nav> 
         <section id = "aboutMe">
             <h1>About Me</h1>
         </section>
-
         <section id = "aboutMeText">
             <p>When I was 12 years old, I got my first (beat-up, secondhand, unwanted-by-anyone-else) Compaq laptop. It ran Windows 98, took half an hour to boot up, and ultimately died within months of becoming mine. During its life, I explored its every digital nook and cranny. After its death, I took it apart, gazing wonderingly at the tiny hills and valleys of its hardware. 
 
@@ -24,5 +35,6 @@
         </section>
     </main>
     <footer role="content-info">(c) Leila Anderson 2019</footer>
+    <script src="script.js"></script>
 </body>
 </html>
