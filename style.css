@@ -11,16 +11,20 @@ body {
     height:100vh;
 }
 
+main {
+    height:100vh;
+}
+
 .hamburger{
     background:none;
-    position:absolute;
-    top:0;
-    right:0;
+    position:fixed;
+    top:5px;
+    right:10px;
     line-height:45px;
     padding:5px 15px 0px 15px;
     color:#669ea5;
     border:0;
-    font-size:1.4em;
+    font-size:5vmin;
     font-weight:bold;
     cursor:pointer;
     outline:none;
@@ -28,13 +32,13 @@ body {
 }
 .cross{
     background:none;
-    position:absolute;
-    top:0px;
-    right:0;
-    padding:7px 15px 0px 15px;
+    position:fixed;
+    top:5px;
+    right:5px;
+    padding:15px 25px 0px 15px;
     color:#669ea5;
     border:0;
-    font-size:3em;
+    font-size:15vmin;
     line-height:65px;
     font-weight:bold;
     cursor:pointer;
@@ -49,12 +53,14 @@ body {
     width:100%; 
     background:#f1f1f1;  
     position:absolute; 
-    text-align:center; 
+    top:0;
+    right:0;
+    text-align:left; 
     font-size:12px;
 }
 
-#back-to-home {
-    font-size: 6vmin;
+#menu-label {
+    font-size: 7vmin;
 }
 
 .menu ul {
@@ -68,15 +74,54 @@ body {
     display: block;   
     background-color: #1e173a;
     font-size:4vmin;
-    padding:15px 0 15px 0; 
+    padding:15px 0 15px 20px; 
     border-bottom:#ffffff 2px solid;
 }
 
-.menu li:hover {
+.nav-button:hover {
     display: block;    
-    background:#ffffff; 
-    padding:15px 0 15px 0; 
-    border-bottom:#dddddd 1px solid;
+    background:#669ea5;
+    border-bottom:#1e173a 2px solid;
+}
+
+#about-me-here {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#about-me-here:hover {
+    background: #1e173a;
+    border-bottom:#ffffff 2px solid;
+}
+
+#contact-here {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#contact-here:hover {
+    background: #1e173a;
+    border-bottom:#ffffff 2px solid;
+}
+
+#projects-here {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#projects-here:hover {
+    background: #1e173a;
+    border-bottom:#ffffff 2px solid;
+}
+
+#back-to-home {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#back-to-home:hover {
+    background: #1e173a;
+    border-bottom:#ffffff 2px solid;
 }
 
 .menu ul li a { 
@@ -85,19 +130,10 @@ body {
     color:#ffffff;
 }
 
-.menu ul li a:hover {  
-    color: #ffffff; 
-    text-decoration:none;
-    }
-
 .menu a {
     text-decoration:none; 
     color:#ffffff;
 }
-
-.menu a:hover {
-    text-decoration:none; 
-    color:#ffffff;}
 
 span {
     padding-left:20px;
@@ -114,10 +150,10 @@ nav {
 
 #headshot {
     height:auto;
-    width:30%;
+    width:25%;
     position:absolute;
-    top:25%;
-    left:55%;
+    top:20%;
+    left:45%;
 }
 
 #quizAppPic {
@@ -129,16 +165,25 @@ header {
     display:inline-block;
     font-size:3vmin;
     background-color: #669ea5;
-    margin-right: 25%;
-    margin-bottom: 25%;
+}
+
+#initial-header {
+    height: 550px;
+    width:700px;
+    margin-right:20%;
+    margin-bottom:30%;
+    padding: 11% 30% 15% 15%;
 }
 
 header h1 {
     font-family: 'Cabin', sans-serif;
+    margin-bottom:20%;
+    letter-spacing: 1px;
 }
 
 header h2 {
     font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -153,36 +198,38 @@ h2 {
     font-size:4vmin;
 }
 
-header h1 {
-    padding-left:10%;
-    padding-top:10%;
-}
-
-header h2 {
-    padding-left:10%;
-    padding-top:10%;
-}
-
 p {
-    margin:0px;
     color:white;
     font-size: 3vmin;
+    width:90%;
 }
 
 #aboutMe {
-    background-color:lightgrey;
-    height:100px;
+    background-color:#c2ddcb;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height:90px;
     width:100%;
-    margin:0px;
-    color:black;
-    padding:10%;
+    margin:0px 0px 5px 0px;
+    padding:5% 10% 10% 10%;
 }
 
-#aboutMeText {
-    background-color:grey;
-    height:500px;
+#aboutMe h1 {
+    color:#1e173a;
+    font-size:4.5vmin;
+}
+
+.aboutMeText {
+    background-color:#36334f;
+    height:70%;
     margin:0px;
-    padding:10%;
+    padding:5% 15% 5% 15%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    line-height: 6vmin;
+    font-size:4.5vmin;
 }
 
 #projects {
@@ -198,8 +245,14 @@ p {
 }
 
 footer {
-    padding:5%;
-    background-color:lightgrey;
-    color:black;
+    position:fixed;
+    bottom:0px;
+    padding:1%;
+    background-color:#1e173a;
+    color:white;
     text-align:center;
+    vertical-align:center;
+    font-size:2vmin;
+    height:5%;
+    width:100%;
 }

@@ -3,8 +3,7 @@
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="HTML wireframe for portfolio site.">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <meta name="description" content="Contact Me">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Cabin" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -12,16 +11,17 @@
 <body>
     <main role="main">
         <header role="banner">
-                <button class="hamburger">&#9776;</button>
-                <button class="cross">&#735;</button>           
-          <nav class="menu">
-              <ul>Menu
-                  <a href="index.html"><li>Leila Anderson</li></a>
-                  <a href="about-me.html"><li>About me</li></a>
-                  <a href="projects.html"><li>Projects</li></a>
-                  <a href="contact-form.html" id="contact-form-here"><li>Contact me</li></a>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>           
+            <nav class="menu">
+                <ul>                        
+                    <li id="menu-label">Menu</li>
+                    <a href="index.html"><li class="nav-button">Home</li></a>
+                    <a href="about-me.html"><li class="nav-button">About me</li></a>
+                    <a href="projects.html"><li class="nav-button">Projects</li></a>
+                    <a href="contact-form.html"><li id="contact-here" class="nav-button"> Contact me</li></a>
                 </ul>
-          </nav> 
+              </nav> 
         <section id="contact">
             <h1>Let me get to know you!</h1>
             <h2>Whether you're looking for help with a project, a cup of coffee, or just good conversation, I'd love to hear from you.</h2>
@@ -34,7 +34,7 @@
             </ul>
         </section>
     </main>
-    <footer role="content-info">(c) Leila Anderson 2019</footer>
+    <footer role="content-info">© Leila Anderson 2019</footer>
     <script src="script.js"></script>
 </body>
 </html>

@@ -3,31 +3,32 @@
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="HTML wireframe for portfolio site.">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <meta name="description" content="Leila Anderson">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Cabin" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <main role="main">
-        <header role="banner">
-                      <button class="hamburger">&#9776;</button>
-                      <button class="cross">&#735;</button>           
+        <header role="banner" id="initial-header">
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>           
             <nav class="menu">
-                <ul>Menu
-                    <a href="index.html"><li>Leila Anderson</li></a>
-                    <a href="about-me.html"><li>About me</li></a>
-                    <a href="projects.html"><li>Projects</li></a>
-                    <a href="contact-form.html"><li>Contact me</li></a>
-                    </ul>
-            </nav> 
-            <h1>Hi, I'm Leila</h1>
-            <h2>I'm a web developer with a lot of love for patterns, tricky problems, & unusual solutions.</h2>
+                <ul>
+                    <li id="menu-label">Menu</li>
+                    <a href="index.html"><li id="back-to-home" class="nav-button">Home</li></a>
+                    <a href="about-me.html"><li class="nav-button">About me</li></a>
+                    <a href="projects.html"><li class="nav-button">Projects</li></a>
+                    <a href="contact-form.html"><li class="nav-button"> Contact me</li></a>
+                </ul>
+              </nav> 
+            <h1>Hi, I'm Leila.</h1>
+            <h2>I'm a web developer with a lot of love for patterns, tricky problems, & unusual solutions. This is my portfolio; a work in 
+                    progress, as all my works are.</h2>
             <img src = "https://i.imgur.com/UXgnTcx.jpg" alt = "A Photo of Leila Anderson" id = "headshot">
         </header>
     </main>
-    <footer role="content-info">(c) Leila Anderson 2019</footer>
+    <footer role="content-info">© Leila Anderson 2019</footer>
     <script src="script.js"></script>
 </body>
 </html>
