@@ -22,9 +22,9 @@ main {
     right:10px;
     line-height:45px;
     padding:5px 15px 0px 15px;
-    color:#669ea5;
+    color:#1e173a;
     border:0;
-    font-size:5vmin;
+    font-size:6vmax;
     font-weight:bold;
     cursor:pointer;
     outline:none;
@@ -38,7 +38,7 @@ main {
     padding:15px 25px 0px 15px;
     color:#669ea5;
     border:0;
-    font-size:15vmin;
+    font-size:20vmax;
     line-height:65px;
     font-weight:bold;
     cursor:pointer;
@@ -49,18 +49,18 @@ main {
 .menu {
     z-index:1000000;
     font-weight:bold; 
-    font-size:0.8em; 
-    width:100%; 
-    background:#f1f1f1;  
+    width:100vw; 
+    height:100vh;
+    background:#1e173a;  
     position:absolute; 
     top:0;
     right:0;
     text-align:left; 
-    font-size:12px;
+    font-size:5vmax;
 }
 
 #menu-label {
-    font-size: 7vmin;
+    font-size: 7vmax;
 }
 
 .menu ul {
@@ -73,7 +73,7 @@ main {
 .menu li {
     display: block;   
     background-color: #1e173a;
-    font-size:4vmin;
+    font-size:4vmax;
     padding:15px 0 15px 20px; 
     border-bottom:#ffffff 2px solid;
 }
@@ -149,28 +149,22 @@ nav {
 }
 
 #headshot {
-    height:auto;
-    width:25%;
-    position:absolute;
-    top:20%;
-    left:45%;
-}
-
-#quizAppPic {
-    height:200px;
+    height:33%;
     width:auto;
+    position:absolute;
+    top:50%;
+    left:45%;
 }
 
 header {
     display:inline-block;
-    font-size:3vmin;
+    font-size:3vmax;
     background-color: #669ea5;
 }
 
 #initial-header {
-    height: 550px;
-    width:700px;
-    margin-right:20%;
+    height:66vh;
+    width:100vw;
     margin-bottom:30%;
     padding: 11% 30% 15% 15%;
 }
@@ -189,18 +183,18 @@ header h2 {
 h1 {
     margin:0px;
     color:white;
-    font-size:5vmin;
+    font-size:5vmax;
 }
 
 h2 {
     margin:0px;
     color:white;
-    font-size:4vmin;
+    font-size:2.5vmax;
 }
 
 p {
     color:white;
-    font-size: 3vmin;
+    font-size: 3vmax;
     width:90%;
 }
 
@@ -209,7 +203,7 @@ p {
     display:flex;
     flex-direction:row;
     justify-content: space-around;
-    height:90px;
+    height:18vh;
     width:100%;
     margin:0px 0px 5px 0px;
     padding:5% 10% 10% 10%;
@@ -217,31 +211,128 @@ p {
 
 #aboutMe h1 {
     color:#1e173a;
-    font-size:4.5vmin;
+    font-size:4vmax;
+    margin-right:12vw;
 }
 
 .aboutMeText {
     background-color:#36334f;
     height:70%;
     margin:0px;
-    padding:5% 15% 5% 15%;
+    padding:5vh 10vw;;
     display:flex;
     flex-direction:row;
     justify-content: space-around;
-    line-height: 6vmin;
-    font-size:4.5vmin;
+    line-height: 5.5vmax;
+    font-size:4vmax;
 }
 
 #projects {
-    background-color:dimgrey;
-    color:black;
-    padding:10%;
+    background-color:#c2ddcb;
+    color:#1e173a;
+    width: 100%;
 }
 
 #projectsTitle {
-    background-color:darkgrey;
-    padding:10%;
-    height:50px;
+    background-color:#36334f;
+    padding:15%;
+    height:15vh;
+    width:100%;
+    position:absolute;
+    top:0;
+}
+
+#projects h2 {
+    color:#1e173a;
+    font-weight:bold;
+    position:absolute;
+    top:50vh;
+    font-size:3.5vmax;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+#projects p {
+    display:block;
+    width: 80vw;
+    position:absolute;
+    top:60vh;
+    color:#1e173a;
+    margin-left:10vw;
+    margin-right:10vw;
+    font-size:2.8vmax;
+}
+
+#quizAppPic {
+    height:auto;
+    width:70vw;
+    position:absolute;
+    top:22vh;
+    left:15vw;
+    right:15vw;
+}
+
+#html-logo {
+    height:3vh;
+    position:absolute;
+    top: 43vh;
+    left: 15vw;
+}
+
+#css-logo {
+    height:3vh;
+    position:absolute;
+    top: 43vh;
+    left: 20vw;
+}
+
+#js-logo {
+    height:3vh;
+    position:absolute;
+    top: 43vh;
+    left: 28vw;
+}
+
+#contact {
+    width:100vw;
+    height:100vh;
+}
+
+#contact h1 {
+    position:absolute;
+    top:20vh;
+    width:80vw;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+#contact h2 {
+    position:absolute;
+    top:40vh;
+    width:80vw;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+#email-pic {
+    height:10vh;
+    position:absolute;
+    top:65vh;
+    left:10vw;
+}
+
+#linkedin-pic {
+    height:10vh;
+    position:absolute;
+    top:65vh;
+    left:43vw;
+}
+
+#github-pic {
+    height:10vh;
+    position:absolute;
+    top:65vh;
+    left:70vw;
 }
 
 footer {
@@ -252,7 +343,7 @@ footer {
     color:white;
     text-align:center;
     vertical-align:center;
-    font-size:2vmin;
+    font-size:3vmax;
     height:5%;
     width:100%;
 }
