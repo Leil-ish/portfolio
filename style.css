@@ -6,14 +6,6 @@
 
 body {
     background-color:#c2ddcb;
-    margin:0;
-    width:100%;
-    height:100vh;
-}
-
-main {
-    height:100vh;
-    width:100vw;
 }
 
 .hamburger{
@@ -179,9 +171,9 @@ header h1 {
     letter-spacing: 1px;
 }
 
-header h2 {
-    font-family: 'Cabin', sans-serif;
+header p {
     letter-spacing: 1px;
+    font-size:2.3vmax;
 }
 
 h1 {
@@ -238,7 +230,7 @@ p {
     width: 100%;
 }
 
-#projectsTitle {
+#projects h1 {
     background-color:#36334f;
     padding:10vmax;
     height:15vh;
