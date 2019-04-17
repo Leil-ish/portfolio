@@ -13,12 +13,13 @@ body {
 
 main {
     height:100vh;
+    width:100vw;
 }
 
 .hamburger{
     background:none;
     position:fixed;
-    top:5px;
+    top:4vh;
     right:10px;
     line-height:45px;
     padding:5px 15px 0px 15px;
@@ -33,7 +34,7 @@ main {
 .cross{
     background:none;
     position:fixed;
-    top:5px;
+    top:4vh;
     right:5px;
     padding:15px 25px 0px 15px;
     color:#669ea5;
@@ -143,6 +144,10 @@ a {
     color:#336699;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 nav {
     background:#1e173a;
     color:white;
@@ -171,7 +176,6 @@ header {
 
 header h1 {
     font-family: 'Cabin', sans-serif;
-    margin-bottom:20%;
     letter-spacing: 1px;
 }
 
@@ -196,6 +200,7 @@ p {
     color:white;
     font-size: 3vmax;
     width:90%;
+    font-weight: 100;
 }
 
 #aboutMe {
@@ -215,7 +220,7 @@ p {
     margin-right:12vw;
 }
 
-.aboutMeText {
+#aboutMeText {
     background-color:#36334f;
     height:70%;
     margin:0px;
@@ -235,7 +240,7 @@ p {
 
 #projectsTitle {
     background-color:#36334f;
-    padding:15%;
+    padding:10vmax;
     height:15vh;
     width:100%;
     position:absolute;
@@ -245,6 +250,7 @@ p {
 #projects h2 {
     color:#1e173a;
     font-weight:bold;
+    display:block;
     position:absolute;
     top:50vh;
     font-size:3.5vmax;
@@ -306,9 +312,9 @@ p {
     margin-right:10vw;
 }
 
-#contact h2 {
+#contact p {
     position:absolute;
-    top:40vh;
+    top:35vh;
     width:80vw;
     margin-left:10vw;
     margin-right:10vw;
@@ -335,15 +341,221 @@ p {
     left:70vw;
 }
 
-footer {
-    position:fixed;
-    bottom:0px;
-    padding:1%;
-    background-color:#1e173a;
-    color:white;
-    text-align:center;
-    vertical-align:center;
-    font-size:3vmax;
-    height:5%;
-    width:100%;
+@media only screen and (min-width: 750px) {
+
+    .hamburger {
+        top:5vh;
+    }
+
+    .cross {
+        top:5vh;
+    }
+
+    .menu li {
+        padding:3vmax 0 3vmax 6vmax; 
+    }
+
+    #projects h1 {
+        height:12vh;
+    }
+    
+    #projects h2 {
+        top:60vh;
+        margin-left:12vw;
+        margin-right:12vw;
+    }
+    
+    #projects p {
+        width: 75vw;
+        top:70vh;
+        margin-left:12vw;
+        margin-right:12vw;
+    }
+    
+    #quizAppPic {
+        width:70vw;
+        top:28vh;
+        left:15vw;
+        right:15vw;
+    }
+    
+    #html-logo {
+        top: 55vh;
+    }
+    
+    #css-logo {
+        top: 55vh;
+    }
+    
+    #js-logo {
+        top: 55vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+   #menu-label {
+        font-size: 4vmax;
+    }
+    
+    .menu li {
+        display: block;   
+        background-color: #1e173a;
+        font-size:2.5vmax;
+        padding:4vmax 0 4vmax 6vmax; 
+        border-bottom:#ffffff 2px solid;
+    }
+
+    .hamburger {
+        position:fixed;
+        top:7vh;
+        right:5vmax;
+    }
+
+    .cross {
+        position:fixed;
+        top:8vh;
+        right:5vmax;
+        font-size:14vmax;
+    }
+
+    #initial-header {
+        height:80vh;
+        width:75vw;
+    }
+
+    header h1 {
+        position:absolute;
+        top:25vh;
+        left:10vw;
+    }
+
+    header p {
+        display:block;
+        width: 35vw;
+        position:absolute;
+        top:38vh;
+        left:10vw;
+        font-size:2vmax;
+    }
+
+    #headshot {
+        height:50vh;
+        width:auto;
+        position:absolute;
+        top:25vh;
+        left:55vw;
+    }
+
+    #aboutMe h1 {
+        background-color:#c2ddcb;
+        display:block;
+        position:absolute;
+        top:0;
+        height:15vh;
+        width:100%;
+        padding-top:10vh;
+    }
+    
+    
+    #aboutMeText {
+        background-color:#36334f;
+        height:70vh;
+        width:100vw;
+        margin:0px;
+        padding:5vh 10vw;;
+    }
+
+    #aboutMeText p {
+        position:absolute;
+        top:30vh;
+        width:80vw;
+        line-height: 3vmax;
+        font-size:2vmax;
+    }
+
+    #projects h1 {
+        position:absolute;
+        top:0;
+        height:20vh;
+        width:100vw;
+        background:#36334f;
+        padding-left:15vw;
+        padding-top:5vh;
+    }
+    
+    #projects h2 {
+        display:block;
+        left:15vw;
+        width:35vw;
+        top:33vh;
+        margin-bottom: 5vh;
+        margin-left:0;
+        margin-right:0;
+        font-size: 3vmax;
+    }
+    
+    #projects p {
+        width: 35vw;
+        top:45vh;
+        margin-left:5vw;
+        font-size:2vmax;
+        line-height:3.5vmax;
+    }
+    
+    #quizAppPic {
+        position:absolute;
+        display:block;
+        width:50vw;
+        top:35vh;
+        left:55vw;
+    }
+    
+    #html-logo {
+        top: 75vh;
+        left:60vw;
+    }
+    
+    #css-logo {
+        top: 75vh;
+        left:65vw;
+    }
+    
+    #js-logo {
+        top: 75vh;
+        left:71vw;
+    }
+
+    #contact h1 {
+        position:absolute;
+        top:20vh;
+        width:60vw;
+    }
+    
+    #contact p {
+        position:absolute;
+        top:35vh;
+        width:60vw;
+    }
+
+    #email-pic {
+        height:10vh;
+        position:absolute;
+        top:65vh;
+        left:20vw;
+    }
+    
+    #linkedin-pic {
+        height:10vh;
+        position:absolute;
+        top:65vh;
+        left:45vw;
+    }
+    
+    #github-pic {
+        height:10vh;
+        position:absolute;
+        top:65vh;
+        left:70vw;
+    }
 }
