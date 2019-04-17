@@ -394,7 +394,7 @@ p {
         display: block;   
         background-color: #1e173a;
         font-size:2.5vmax;
-        padding:4vmax 0 4vmax 6vmax; 
+        padding:2vmax 0 2vmax 6vmax; 
         border-bottom:#ffffff 2px solid;
     }
 
@@ -472,8 +472,8 @@ p {
         height:20vh;
         width:100vw;
         background:#36334f;
-        padding-left:15vw;
-        padding-top:5vh;
+        padding-left:10vw;
+        padding-top:10vh;
     }
     
     #projects h2 {
@@ -491,8 +491,8 @@ p {
         width: 35vw;
         top:45vh;
         margin-left:5vw;
-        font-size:2vmax;
-        line-height:3.5vmax;
+        font-size:1.8vmax;
+        line-height:3vmax;
     }
     
     #quizAppPic {
@@ -504,18 +504,21 @@ p {
     }
     
     #html-logo {
-        top: 75vh;
-        left:60vw;
+        height:5vmax;
+        top: 88vh;
+        left:55vw;
     }
     
     #css-logo {
-        top: 75vh;
-        left:65vw;
+        height:5vmax;
+        top: 88vh;
+        left:60vw;
     }
     
     #js-logo {
-        top: 75vh;
-        left:71vw;
+        height:5vmax;
+        top: 88vh;
+        left:68vw;
     }
 
     #contact h1 {
