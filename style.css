@@ -516,11 +516,12 @@ header p {
 }
 
 #aboutMe h1 {
-    background-color:#ffffff;
+    background-color:#0e101d;
     width:100%;
-    color:#0e101d;
+    color:#ffffff;
     font-size:30px;
-    padding: 15px 15% 0px 15%;
+    padding: 10% 20% 6% 15%;
+    margin:0;
 }
 
 #aboutMeText {
@@ -531,21 +532,22 @@ header p {
 }
 
 #projects {
-    background-color:#ffffff;
-    color:#0e101d;
+    background-color:#0e101d;
+    color:#ffffff;
     width: 100%;
 }
 
 #projects h1 {
     background-color:#0e101d;
-    padding: 30px 25px;
+    padding: 40px 30px 25px;
     height:100px;
     width:100%;
     margin:0;
+    border-bottom:1px solid #669ea5;
 }
 
 #projects h2 {
-    color:#0e101d;
+    color:#ffffff;
     font-weight:bold;
     top:50px;
     font-size:30px;
@@ -554,11 +556,13 @@ header p {
 }
 
 #projects p {
-    color:#0e101d;
+    color:#ffffff;
     margin-left:10%;
     margin-right:10%;
     font-size:20px;
     line-height:30px;
+    margin-bottom:0;
+    padding-bottom:3%;
 }
 
 #quizAppPic {
@@ -585,8 +589,8 @@ header p {
 .button {
     border: 2px solid #4b4e61;
     border-radius:5%;
-    background-color:#0e101d;
-    color:#ffffff;
+    background-color:#ffffff;
+    color:#0e101d;
     display:inline-block;
     height:50px;
     width:40%;
@@ -603,9 +607,10 @@ header p {
 }
 
 #contact h1 {
-    background-color:white;
-    color:#0e101d;
-    padding:15%;
+    background-color:#0e101d;
+    color:#ffffff;
+    padding:10% 20% 10% 10%;
+    margin:0;
 }
 
 #contact p {
@@ -889,20 +894,36 @@ address {
         color:white;
     }
 
+    #initial-header h1 {
+        padding: 7% 0;
+        font-size:45px;
+        margin:0;
+    }
+
     #initial-header {
-        padding-top:8%;
+        padding-top:6%;
+    }
+
+    .pageMain {
+        background-color:#0e101d;
+        padding:6% 30% 15% 15%;
     }
 
     #aboutMe h1 {
         font-size:45px;
-        padding-right:25%;
-        padding-top:10%;
+        background-color:#0e101d;
+        color:#ffffff;
+        padding:7% 0;
     }
 
     #aboutMeText {
-        padding:5% 10% 5% 15%;
         font-size:30px;
         line-height: 40px;
+        padding:0;
+    }
+
+    #aboutMeText p {
+        margin:0;
     }
 
     #projects h1 {
@@ -915,6 +936,8 @@ address {
         padding-bottom:20px;
         padding-left:10%;
         font-size:45px; 
+        background-color:#0e101d;
+        color:#ffffff;
      }
  
      #contact p {
@@ -923,25 +946,57 @@ address {
      }
  
      #email-pic {
-         height:180px;
+         height:140px;
          padding-left: 10%;
-         padding-top:5%;
-         padding-bottom:5%;
+         padding-top:3%;
+         padding-bottom:3%;
      }
      
      #linkedin-pic {
-         height:180px;
+         height:140px;
          padding-left:10%;
          padding-right:10%;
-         padding-top:5%;
-         padding-bottom:5%;
+         padding-top:3%;
+         padding-bottom:3%;
      }
      
      #github-pic {
-         height:180px;
+         height:140px;
          padding-right:10%;
-         padding-top:5%;
-         padding-bottom:5%;
+         padding-top:3%;
+         padding-bottom:3%;
      }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    #email-pic {
+        height:180px
+    }
+    
+    #linkedin-pic {
+        height:180px;
+    }
+    
+    #github-pic {
+        height:180px;
+    }
+
+}
+
+@media only screen and (min-width: 2000px) {
+
+    #email-pic {
+        height:250px
+    }
+    
+    #linkedin-pic {
+        height:250px;
+    }
+    
+    #github-pic {
+        height:250px;
+    }
 
 }
