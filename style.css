@@ -910,10 +910,10 @@ address {
     }
 
     #aboutMe h1 {
-        font-size:45px;
+        font-size:40px;
         background-color:#0e101d;
         color:#ffffff;
-        padding:7% 0;
+        padding:12% 0 7% 0;
     }
 
     #aboutMeText {
