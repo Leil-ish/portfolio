@@ -375,7 +375,7 @@ body {
 .cross{
     background:none;
     position:absolute;
-    top:15px;
+    top:18px;
     right:8px;
     padding:15px 25px 0px 15px;
     color:#669ea5;
@@ -401,7 +401,8 @@ body {
 }
 
 #menu-label {
-    font-size: 25px;
+    font-size: 35px;
+    padding: 50px;
 }
 
 .menu ul {
@@ -535,19 +536,26 @@ header p {
     background-color:#0e101d;
     color:#ffffff;
     width: 100%;
+    text-align: center;
+}
+
+#projects .projects-stack{
+    display: inline-block;
+    flex-direction: column;
 }
 
 #projects h1 {
     background-color:#0e101d;
-    padding: 40px 30px 25px;
+    font-size: 50px;
+    padding: 40px 30px;
     height:100px;
     width:100%;
     margin:0;
-    border-bottom:1px solid #669ea5;
 }
 
 #projects h2 {
     color:#ffffff;
+    text-align: center;
     font-weight:bold;
     top:50px;
     font-size:30px;
@@ -561,47 +569,93 @@ header p {
     margin-right:10%;
     font-size:20px;
     line-height:30px;
-    margin-bottom:0;
+    margin-bottom:40px;
     padding-bottom:3%;
     border-bottom:1px solid #ffffff;
 }
 
-#quizAppPic, #dndAppPic {
+#quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
+    display: block;
     height:auto;
-    width:90%;
-    margin:5% 5% 0% 5%;
+    width:70%;
+    margin:5% auto;
 }
 
 #html-logo {
     height:30px;
-    margin-left:5%;
+
 }
 
 #css-logo {
     height:30px;
-    margin-left:5%;
-    margin-right:5%;
 }
 
 #js-logo {
-    height:30px;
+    height:25px;
 }
 
-.button {
+#react-logo {
+    height:25px;
+}
+
+#postgres-logo {
+    height:25px;
+}
+
+#node-logo {
+    height:25px;
+}
+
+#express-logo {
+    height:25px;
+}
+
+.button-one {
     border: 2px solid #4b4e61;
     border-radius:5%;
-    background-color:#ffffff;
+    background-color:#a1c3c8;
     color:#0e101d;
-    display:inline-block;
-    height:50px;
+    height:40px;
     width:40%;
     text-decoration:none;
-    padding:8px 4px;
+    padding:8px 4px 0px 4px;
     text-align:center;
     font-size:20px;
-    display:inline-block;
-    margin-left:6%;
+    display:block;
+    margin: 10px auto;
 }
+
+.button-two {
+    border: 2px solid #4b4e61;
+    border-radius:5%;
+    background-color:#7DADB2;
+    color:#0e101d;
+    height:40px;
+    width:40%;
+    text-decoration:none;
+    padding:8px 4px 0px 4px;
+    text-align:center;
+    font-size:20px;
+    display:block;
+    margin: 10px auto;
+}
+
+
+.button-three {
+    border: 2px solid #4b4e61;
+    border-radius:5%;
+    background-color:#5D989F;
+    color:#0e101d;
+    height:40px;
+    width:40%;
+    text-decoration:none;
+    padding:8px 4px 0px 4px;
+    text-align:center;
+    font-size:20px;
+    display:block;
+    margin: 10px auto;
+}
+
 
 .button:hover {
     background-color:#4b4e61;
@@ -651,14 +705,26 @@ address {
     
     .hamburger {
        font-size:60px; 
-       top:100px;
+       top:70px;
        right:50px;
     } 
 
     .cross {
         font-size:200px;
-        top:100px;
+        top:70px;
         right:40px;
+    }
+
+    .button-one {
+        width: 20%;
+    }
+
+    .button-two {
+        width: 20%;
+    }
+
+    .button-three {
+        width: 20%;
     }
 
     #menu-label {
@@ -707,8 +773,7 @@ address {
     #projects h1 {
         height:200px;
         padding-top:105px;
-        padding-left:70px;
-        font-size:50px;
+        font-size:60px;
     }
 
     #projects h2 {
@@ -720,24 +785,32 @@ address {
     }
 
     #html-logo {
-        height:70px;
-        margin-left:10%;
-        padding-top:15px;
-        padding-bottom:15px;
+        height:40px;
+    
     }
     
     #css-logo {
-        height:70px;
-        margin-left:5%;
-        margin-right:5%;
-        padding-top:15px;
-        padding-bottom:15px;
+        height:40px;
     }
     
     #js-logo {
-        height:70px;
-        padding-top:15px;
-        padding-bottom:15px;
+        height:40px;
+    }
+    
+    #react-logo {
+        height:40px;
+    }
+    
+    #postgres-logo {
+        height:40px;
+    }
+    
+    #node-logo {
+        height:40px;
+    }
+    
+    #express-logo {
+        height:40px;
     }
 
     #projects p {
@@ -970,7 +1043,16 @@ address {
 
 }
 
+@media only screen and (min-width: 1200px) {
+    #quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
+        width:50%;
+    }
+}
+
 @media only screen and (min-width: 1500px) {
+    #quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
+        width:50%;
+    }
 
     #email-pic {
         height:180px
