@@ -569,9 +569,7 @@ header p {
     margin-right:10%;
     font-size:20px;
     line-height:30px;
-    margin-bottom:40px;
-    padding-bottom:3%;
-    border-bottom:1px solid #ffffff;
+    margin: 20px 30px 0px 30px;
 }
 
 #quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
@@ -653,11 +651,19 @@ header p {
     text-align:center;
     font-size:20px;
     display:block;
-    margin: 10px auto;
+    margin: 10px auto 40px auto;
 }
 
 
-.button:hover {
+.button-one:hover {
+    background-color:#afb1c1;
+}
+
+.button-two:hover {
+    background-color:#8589a1;
+}
+
+.button-three:hover {
     background-color:#4b4e61;
 }
 
@@ -778,10 +784,11 @@ address {
 
     #projects h2 {
         font-weight:bold;
-        padding-top:60px;
+        padding-top:100px;
         font-size:40px;
         text-align:center;
-        margin-bottom:0;
+        margin:0;
+        border-top:2px solid #669ea5;
     }
 
     #html-logo {
@@ -1047,6 +1054,18 @@ address {
     #quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
         width:50%;
     }
+
+    #email-pic {
+        height:100px
+    }
+    
+    #linkedin-pic {
+        height:100px;
+    }
+    
+    #github-pic {
+        height:100px;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -1055,31 +1074,35 @@ address {
     }
 
     #email-pic {
-        height:180px
+        height:120px
     }
     
     #linkedin-pic {
-        height:180px;
+        height:120px;
     }
     
     #github-pic {
-        height:180px;
+        height:120px;
     }
 
 }
 
 @media only screen and (min-width: 2000px) {
 
+    #contact {
+        max-width: 85%;
+    }
+
     #email-pic {
-        height:250px
+        height:120px
     }
     
     #linkedin-pic {
-        height:250px;
+        height:120px;
     }
     
     #github-pic {
-        height:250px;
+        height:120px;
     }
 
 }
