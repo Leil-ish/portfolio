@@ -588,32 +588,32 @@ hr.a {
     margin:5% auto;
 }
 
-#html-logo {
+.html-logo {
     height:30px;
 
 }
 
-#css-logo {
+.css-logo {
     height:30px;
 }
 
-#js-logo {
+.js-logo {
     height:25px;
 }
 
-#react-logo {
+.react-logo {
     height:25px;
 }
 
-#postgres-logo {
+.postgres-logo {
     height:25px;
 }
 
-#node-logo {
+.node-logo {
     height:25px;
 }
 
-#express-logo {
+.express-logo {
     height:25px;
 }
 
@@ -800,32 +800,32 @@ address {
         border-top:2px solid #669ea5;
     }
 
-    #html-logo {
+    .html-logo {
         height:50px;
     
     }
     
-    #css-logo {
+    .css-logo {
         height:50px;
     }
     
-    #js-logo {
+    .js-logo {
         height:40px;
     }
     
-    #react-logo {
+    .react-logo {
         height:40px;
     }
     
-    #postgres-logo {
+    .postgres-logo {
         height:40px;
     }
     
-    #node-logo {
+    .node-logo {
         height:40px;
     }
     
-    #express-logo {
+    .express-logo {
         height:40px;
     }
 
