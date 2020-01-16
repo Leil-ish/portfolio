@@ -425,7 +425,7 @@ body {
     border-bottom:#0e101d 2px solid;
 }
 
-#about-me-here {
+.menu #about-me-here a {
     color: #669ea5;
     font-weight: bold;
 }
@@ -435,7 +435,7 @@ body {
     border-bottom:#ffffff 2px solid;
 }
 
-#contact-here {
+.menu #contact-here a {
     color: #669ea5;
     font-weight: bold;
 }
@@ -445,7 +445,7 @@ body {
     border-bottom:#ffffff 2px solid;
 }
 
-#projects-here {
+.menu #projects-here a {
     color: #669ea5;
     font-weight: bold;
 }
@@ -455,7 +455,7 @@ body {
     border-bottom:#ffffff 2px solid;
 }
 
-#back-to-home {
+.menu #back-to-home a {
     color: #669ea5;
     font-weight: bold;
 }
@@ -920,7 +920,7 @@ address {
         border-bottom:#0e101d 2px solid;
     }
     
-    #about-me-here {
+    .menu .navbar #about-me-here a  {
         color: #669ea5;
         font-weight: bold;
     }
@@ -930,7 +930,7 @@ address {
         border-bottom:none;
     }
     
-    #contact-here {
+    .menu .navbar #contact-here a {
         color: #669ea5;
         font-weight: bold;
     }
@@ -940,7 +940,7 @@ address {
         border-bottom:none;
     }
     
-    #projects-here {
+    .menu #projects-here a {
         color: #669ea5;
         font-weight: bold;
     }
@@ -950,7 +950,7 @@ address {
         border-bottom:none;
     }
     
-    #back-to-home {
+    .menu #back-to-home a {
         color: #669ea5;
         font-weight: bold;
     }
