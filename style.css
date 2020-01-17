@@ -846,14 +846,14 @@ address {
     }
 
     #email-pic {
-        height:160px;
+        height:140px;
         padding-left: 10%;
         padding-top:5%;
         padding-bottom:5%;
     }
     
     #linkedin-pic {
-        height:160px;
+        height:140px;
         padding-left:10%;
         padding-right:10%;
         padding-top:5%;
@@ -861,7 +861,7 @@ address {
     }
     
     #github-pic {
-        height:160px;
+        height:140px;
         padding-right:10%;
         padding-top:5%;
         padding-bottom:5%;
