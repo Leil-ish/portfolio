@@ -518,15 +518,17 @@ header p {
 
 #aboutMe h1 {
     background-color:#0e101d;
+    border-top:2px solid #669ea5;
     width:100%;
     color:#ffffff;
     font-size:30px;
-    padding: 15% 20% 10% 15%;
+    padding: 15% 20% 10% 0%;
     margin:0;
 }
 
-#aboutMeText {
+#aboutMe {
     background-color:#0e101d;
+    color:#ffffff;
     line-height: 35px;
     font-size:18px;
     padding: 5px 45px;
@@ -776,14 +778,15 @@ address {
     }
 
     #aboutMe h1 {
-        font-size:60px;
+        font-size:45px;
+        line-height: 50px;
         padding-right:25%;
         padding-top:10%;
     }
 
-    #aboutMeText {
-        padding:5% 10% 5% 15%;
-        font-size:30px;
+    #aboutMe {
+        padding:5% 15% 5% 15%;
+        font-size:25px;
         line-height: 40px;
     }
 
@@ -1007,14 +1010,15 @@ address {
         padding:12% 0 30px 0;
     }
 
-    #aboutMeText {
+    #aboutMe {
         font-size:20px;
         line-height: 40px;
         padding:0;
     }
 
-    #aboutMeText p {
+    #aboutMe p {
         margin:0;
+        color: #ffffff;
     }
 
     #projects h1 {
