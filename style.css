@@ -682,14 +682,16 @@ hr.a {
 
 #contact h1 {
     background-color:#0e101d;
+    border-top:2px solid #669ea5;
     color:#ffffff;
-    padding:10% 20% 10% 10%;
+    padding:25% 30% 10% 10%;
     margin:0;
 }
 
 #contact p {
     background-color:#0e101d;
-    padding:10%;
+    color:#ffffff;
+    padding:10% 20% 10% 10%;
     line-height:35px;
     margin:0;
 }
@@ -851,25 +853,15 @@ address {
     }
 
     #email-pic {
-        height:140px;
-        padding-left: 10%;
-        padding-top:5%;
-        padding-bottom:5%;
+        height:120px;
     }
     
     #linkedin-pic {
-        height:140px;
-        padding-left:10%;
-        padding-right:10%;
-        padding-top:5%;
-        padding-bottom:5%;
+        height:120px;
     }
     
     #github-pic {
-        height:140px;
-        padding-right:10%;
-        padding-top:5%;
-        padding-bottom:5%;
+        height:120px;
     }
 
 
@@ -1041,14 +1033,14 @@ address {
      }
  
      #email-pic {
-         height:140px;
+         height:100px;
          padding-left: 10%;
          padding-top:3%;
          padding-bottom:3%;
      }
      
      #linkedin-pic {
-         height:140px;
+         height:100px;
          padding-left:10%;
          padding-right:10%;
          padding-top:3%;
@@ -1056,7 +1048,7 @@ address {
      }
      
      #github-pic {
-         height:140px;
+         height:100px;
          padding-right:10%;
          padding-top:3%;
          padding-bottom:3%;
