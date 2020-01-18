@@ -421,7 +421,7 @@ body {
 }
 
 .nav-button:hover {
-    background:#4b4e61;
+    color:#4b4e61;
     border-bottom:#0e101d 2px solid;
 }
 
@@ -573,12 +573,14 @@ hr.a {
 }
 
 #projects p {
+    text-align: left;
     color:#ffffff;
     margin-left:10%;
     margin-right:10%;
     font-size:20px;
     line-height:30px;
     margin: 20px 30px 0px 30px;
+    padding: 20px;
 }
 
 #quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
@@ -870,7 +872,7 @@ address {
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 950px) {
 
     .hamburger {
         display:none;
@@ -911,16 +913,12 @@ address {
         display: inline; 
         background-color: #0e101d;
         font-size:20px;
-        padding:15px 35px 15px 30px; 
+        padding:15px 20px 15px 15px; 
         border-bottom:none;
     }
-    
-    .nav-button:hover {
-        background:#4b4e61;
-        border-bottom:#0e101d 2px solid;
-    }
-    
-    .menu .navbar #about-me-here a  {
+
+    .menu .navbar #about-me-here a {
+        display: inline-block;
         color: #669ea5;
         font-weight: bold;
     }
@@ -931,6 +929,7 @@ address {
     }
     
     .menu .navbar #contact-here a {
+        display: inline-block;
         color: #669ea5;
         font-weight: bold;
     }
@@ -941,6 +940,7 @@ address {
     }
     
     .menu #projects-here a {
+        display: inline-block;
         color: #669ea5;
         font-weight: bold;
     }
@@ -951,6 +951,7 @@ address {
     }
     
     .menu #back-to-home a {
+        display: inline-block;
         color: #669ea5;
         font-weight: bold;
     }
@@ -1059,6 +1060,11 @@ address {
 }
 
 @media only screen and (min-width: 1200px) {
+
+    .menu li {
+        padding:15px 35px 15px 30px; 
+    }
+
     #quizAppPic, #dndAppPic, #enrootAppPic, #bibliofileAppPic {
         width:50%;
     }
@@ -1081,6 +1087,10 @@ address {
         width:50%;
     }
 
+    .menu li {
+        padding:15px 55px 15px 50px; 
+    }
+
     #email-pic {
         height:120px
     }
@@ -1096,6 +1106,10 @@ address {
 }
 
 @media only screen and (min-width: 2000px) {
+
+    .menu li {
+        padding:15px 65px 15px 60px; 
+    }
 
     #contact {
         max-width: 85%;
